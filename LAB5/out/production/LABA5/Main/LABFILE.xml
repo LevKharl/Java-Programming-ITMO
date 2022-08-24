@@ -1,0 +1,17 @@
+<Dragon>
+  <id>1956395652</id>
+  <name>asd</name>
+  <coordinates>
+    <x>100.0</x>
+    <y>10.0</y>
+  </coordinates>
+  <creationDate>2022-04-26T12:54:09.698185+03:00[Europe/Moscow]</creationDate>
+  <age>10</age>
+  <description>sfg</description>
+  <wingspan>46</wingspan>
+  <character>EVIL</character>
+  <cave>
+    <depth>12</depth>
+    <numberOfTreasures>34.0</numberOfTreasures>
+  </cave>
+</Dragon>

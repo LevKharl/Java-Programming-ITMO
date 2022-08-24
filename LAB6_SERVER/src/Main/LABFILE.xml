@@ -1,0 +1,34 @@
+<Dragon>
+  <id>646802884</id>
+  <name>df</name>
+  <coordinates>
+    <x>34.0</x>
+    <y>5.0</y>
+  </coordinates>
+  <creationDate>2022-05-24T01:37:17.701957+03:00[Europe/Moscow]</creationDate>
+  <age>23</age>
+  <description>sfg</description>
+  <wingspan>23</wingspan>
+  <character>EVIL</character>
+  <cave>
+    <depth>34</depth>
+    <numberOfTreasures>45764.0</numberOfTreasures>
+  </cave>
+</Dragon>
+<Dragon>
+  <id>680738490</id>
+  <name>drtjdrtjd</name>
+  <coordinates>
+    <x>56.0</x>
+    <y>34.0</y>
+  </coordinates>
+  <creationDate>2022-05-24T20:10:08.196449+03:00[Europe/Moscow]</creationDate>
+  <age>453</age>
+  <description>dgsdfhss</description>
+  <wingspan>35</wingspan>
+  <character>EVIL</character>
+  <cave>
+    <depth>78</depth>
+    <numberOfTreasures>5.0</numberOfTreasures>
+  </cave>
+</Dragon>
