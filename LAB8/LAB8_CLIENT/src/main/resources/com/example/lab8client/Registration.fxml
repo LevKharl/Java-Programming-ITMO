@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="RegistrationWindow" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: darkblue;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab8client.RegistrationController">
+   <children>
+      <Button fx:id="RegistrationButton" alignment="TOP_CENTER" layoutX="223.0" layoutY="287.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="142.0" style="-fx-background-color: deepskyblue;" text="Зарегистрироватсья" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </Button>
+      <Label fx:id="regLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="148.0" layoutY="79.0" prefHeight="36.0" prefWidth="296.0" style="-fx-background-color: darkblue;" textFill="WHITE">
+         <font>
+            <Font name="American Typewriter" size="29.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <PasswordField fx:id="PasswordField" layoutX="216.0" layoutY="219.0" promptText="password" />
+      <TextField fx:id="regField" layoutX="216.0" layoutY="164.0" promptText="login" />
+      <Button fx:id="cancelRegistrationButton" layoutX="61.0" layoutY="333.0" mnemonicParsing="false" style="-fx-background-color: deepskyblue;" text="Назад" textFill="WHITE" />
+   </children>
+</AnchorPane>

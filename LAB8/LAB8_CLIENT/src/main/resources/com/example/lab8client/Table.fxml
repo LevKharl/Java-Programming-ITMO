@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: darkblue;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab8client.TableController">
+   <children>
+      <TableView fx:id="tableView" layoutY="60.0" prefHeight="317.0" prefWidth="600.0" style="-fx-background-color: skyblue;" />
+      <Button fx:id="visualizationButton" layoutX="261.0" layoutY="21.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="118.0" style="-fx-background-color: deepskyblue;" text="Визуализировать" textFill="WHITE" />
+      <Button fx:id="reloadTableButton" layoutX="400.0" layoutY="21.0" mnemonicParsing="false" style="-fx-background-color: deepskyblue;" text="Обновить" textFill="WHITE" />
+      <Label fx:id="ownerLabel" layoutX="14.0" layoutY="17.0" prefHeight="34.0" prefWidth="170.0" text="USER:" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitButton" layoutX="494.0" layoutY="21.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" style="-fx-background-color: deepskyblue;" text="Выйти" textFill="WHITE" />
+   </children>
+</AnchorPane>
